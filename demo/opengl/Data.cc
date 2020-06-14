@@ -240,7 +240,7 @@ void Data::getFrame(unsigned frame_index, TColors *pixels, unsigned pitch, const
 
       _spr_tab->get(sprite_index, sprite_data_index, sprite_width, sprite_height); 
      
-      TColors *pix = pixels + sprite_y_offset * pitch / sizeof(*pixels) + sprite_x_offset;
+      TColors *pix = pixels + sprite_y_offset * (int)pitch / sizeof(*pixels) + sprite_x_offset;
 
       _spr_data->get(sprite_data_index, sprite_width, sprite_height, sprite_flipped, pix, pitch, colors);
     }
