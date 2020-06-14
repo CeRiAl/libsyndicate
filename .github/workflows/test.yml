@@ -22,17 +22,25 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Install build tools
-    - name: Install build tools
+    # Install libraries
+    - name: Install libraries
       run: sudo apt-get install libsdl1.2-dev
   
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
     # Runs a set of commands using the runners shell
     - name: Bootstrap the code
       run: |
-        mkdir $GITHUB_WORKSPACE/build
         cd $GITHUB_WORKSPACE
         ./bootstrap
+
+    # Runs a set of commands using the runners shell
+    - name: Run configure
+      run: |
+        mkdir $GITHUB_WORKSPACE/build
+        cd $GITHUB_WORKSPACE/build
+        ../configure
+
+    # Runs a set of commands using the runners shell
+    - name: Run make
+      run: |
+        cd $GITHUB_WORKSPACE/build
+        make
