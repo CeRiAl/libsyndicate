@@ -24,7 +24,7 @@ jobs:
 
     # Install build tools
     - name: Install build tools
-      run: sudo apt install build-essentials
+      run: sudo apt-get install build-essential
   
     # Runs a single command using the runners shell
     - name: Run a one-line script
