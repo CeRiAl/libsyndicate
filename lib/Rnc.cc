@@ -206,7 +206,7 @@ uint8_t *Rnc::unpack(uint8_t *input, unsigned &output_length) const
 		    }
 		  while(len--)
 		    {
-		      *p_output = p_output[-dist];
+					*p_output = p_output[(int)-dist];
 		      p_output++;
 		      output_length ++;
 		    }
