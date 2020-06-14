@@ -107,10 +107,10 @@ private:
 
   bool _on_screen_mode;
 
-  static const float _tile_side = 256.0;
-  static const float _delta_pan_x = 256.0;
-  static const float _delta_pan_y = 256.0;
-  static const float _delta_zoom = 0.2;
+  static constexpr float _tile_side = 256.0;
+  static constexpr float _delta_pan_x = 256.0;
+  static constexpr float _delta_pan_y = 256.0;
+  static constexpr float _delta_zoom = 0.2;
 
   static const GLfloat _planeValueS[];
   static const GLfloat _planeValueT[];
