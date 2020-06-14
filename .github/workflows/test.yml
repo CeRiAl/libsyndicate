@@ -24,7 +24,7 @@ jobs:
 
     # Install build tools
     - name: Install build tools
-      run: sudo apt-get install build-essential
+      run: sudo apt-get install libsdl2-dev
   
     # Runs a single command using the runners shell
     - name: Run a one-line script
