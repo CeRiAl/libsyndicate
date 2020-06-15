@@ -34,7 +34,7 @@ jobs:
 
     - name: Run make check
       env:
-        SYNDICATE_DATA_PATH: $GITHUB_WORKSPACE/test/fixtures
+        SYNDICATE_DATA_PATH: /home/runner/work/libsyndicate/libsyndicate/test/fixtures
       run: |
         cd $GITHUB_WORKSPACE/build
         make check
