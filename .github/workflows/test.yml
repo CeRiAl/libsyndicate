@@ -33,8 +33,6 @@ jobs:
         make
 
     - name: Run make check
-      env:
-        SYNDICATE_DATA_PATH: ${GITHUB_WORKSPACE}/test/fixtures
       run: |
         cd $GITHUB_WORKSPACE/build
-        make check
+        SYNDICATE_DATA_PATH=$GITHUB_WORKSPACE/test/fixtures make check
