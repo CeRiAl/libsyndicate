@@ -1,0 +1,67 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+  // LD_LIBRARY_PATH="/home/cerial/Development/syndicate/libsyndicate/build/lib/.libs:$LD_LIBRARY_PATH"
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch Demo (OpenGL)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/demo/opengl/.libs/Main",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/demo/opengl/.libs",
+      "environment": [
+        {
+          "name": "SYNDICATE_DATA_PATH",
+          "value": "${workspaceFolder}/../../game-data/Syndicate/DATA"
+        },
+        {
+          "name": "LD_LIBRARY_PATH",
+          "value": "${workspaceFolder}/build/lib/.libs:${env:LD_LIBRARY_PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Launch Demo (SDL)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/demo/sdl/.libs/Main",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/demo/sdl/.libs",
+      "environment": [
+        {
+          "name": "SYNDICATE_DATA_PATH",
+          "value": "${workspaceFolder}/../../game-data/Syndicate/DATA"
+        },
+        {
+          "name": "LD_LIBRARY_PATH",
+          "value": "${workspaceFolder}/build/lib/.libs:${env:LD_LIBRARY_PATH}"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

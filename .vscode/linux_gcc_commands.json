@@ -1,0 +1,1433 @@
+[
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Game.o", 
+            "../../lib/Game.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Game.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestBlock.o", 
+            "../../test/TestBlock.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestBlock.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Req.o", 
+            "../../lib/Req.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Req.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/sdl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Game.o", 
+            "../../../demo/sdl/Game.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/sdl", 
+        "file": "../../../demo/sdl/Game.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "MapTile.o", 
+            "../../lib/MapTile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapTile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_mapcol.o", 
+            "../../example/main_mapcol.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_mapcol.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "MapSubTile.o", 
+            "../../lib/MapSubTile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapSubTile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/MapData.o", 
+            "../../lib/MapData.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapData.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "MapColumn.o", 
+            "../../lib/MapColumn.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapColumn.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/HuffmanTable.o", 
+            "../../lib/HuffmanTable.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/HuffmanTable.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_map.o", 
+            "../../example/main_map.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_map.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../tool", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "MemshotFe.o", 
+            "../../tool/MemshotFe.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/tool", 
+        "file": "../../tool/MemshotFe.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_font.o", 
+            "../../example/main_font.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_font.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/SpriteAnim.o", 
+            "../../lib/SpriteAnim.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteAnim.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../tool", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Screenshot.o", 
+            "../../tool/Screenshot.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/tool", 
+        "file": "../../tool/Screenshot.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Palette.o", 
+            "../../lib/Palette.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Palette.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Bitstream.o", 
+            "../../lib/Bitstream.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Bitstream.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_maptile.o", 
+            "../../example/main_maptile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_maptile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/MapColumn.o", 
+            "../../lib/MapColumn.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapColumn.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_game.o", 
+            "../../example/main_game.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_game.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Main.o", 
+            "../../lib/Main.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Main.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Map.o", 
+            "../../example/Map.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/Map.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Req.o", 
+            "../../lib/Req.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Req.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_hreq.o", 
+            "../../example/main_hreq.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_hreq.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestMapTile.o", 
+            "../../test/TestMapTile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestMapTile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Raw.o", 
+            "../../lib/Raw.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Raw.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Block.o", 
+            "../../lib/Block.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Block.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "File.o", 
+            "../../lib/File.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/File.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "SpriteElement.o", 
+            "../../lib/SpriteElement.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteElement.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_anim.o", 
+            "../../example/main_anim.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_anim.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/SpriteFrame.o", 
+            "../../lib/SpriteFrame.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteFrame.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/opengl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Sight.o", 
+            "../../../demo/opengl/Sight.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/opengl", 
+        "file": "../../../demo/opengl/Sight.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/MapTile.o", 
+            "../../lib/MapTile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapTile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Bitstream.o", 
+            "../../lib/Bitstream.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Bitstream.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestInt.o", 
+            "../../test/TestInt.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestInt.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_raw.o", 
+            "../../example/main_raw.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_raw.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Palette.o", 
+            "../../lib/Palette.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Palette.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Colors.o", 
+            "../../lib/Colors.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Colors.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "SpriteAnim.o", 
+            "../../lib/SpriteAnim.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteAnim.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "SpriteTab.o", 
+            "../../lib/SpriteTab.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteTab.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_sprite.o", 
+            "../../example/main_sprite.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_sprite.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Rnc.o", 
+            "../../lib/Rnc.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Rnc.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Raw.o", 
+            "../../lib/Raw.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Raw.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestSpriteTab.o", 
+            "../../test/TestSpriteTab.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestSpriteTab.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_palette.o", 
+            "../../example/main_palette.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_palette.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/File.o", 
+            "../../lib/File.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/File.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Font.o", 
+            "../../lib/Font.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Font.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/SpriteElement.o", 
+            "../../lib/SpriteElement.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteElement.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Font.o", 
+            "../../lib/Font.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Font.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/MapSubTile.o", 
+            "../../lib/MapSubTile.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapSubTile.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestFont.o", 
+            "../../test/TestFont.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestFont.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_mapdata.o", 
+            "../../example/main_mapdata.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_mapdata.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Animation.o", 
+            "../../example/Animation.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/Animation.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/SpriteTab.o", 
+            "../../lib/SpriteTab.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteTab.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/opengl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Main.o", 
+            "../../../demo/opengl/Main.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/opengl", 
+        "file": "../../../demo/opengl/Main.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/opengl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Tiles.o", 
+            "../../../demo/opengl/Tiles.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/opengl", 
+        "file": "../../../demo/opengl/Tiles.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Game.o", 
+            "../../lib/Game.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Game.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Rnc.o", 
+            "../../lib/Rnc.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Rnc.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/sdl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Main.o", 
+            "../../../demo/sdl/Main.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/sdl", 
+        "file": "../../../demo/sdl/Main.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "HuffmanTable.o", 
+            "../../lib/HuffmanTable.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/HuffmanTable.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Block.o", 
+            "../../lib/Block.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Block.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Colors.o", 
+            "../../lib/Colors.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Colors.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "SpriteFrame.o", 
+            "../../lib/SpriteFrame.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteFrame.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/sdl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Sdl.o", 
+            "../../../demo/sdl/Sdl.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/sdl", 
+        "file": "../../../demo/sdl/Sdl.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/SpriteData.o", 
+            "../../lib/SpriteData.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteData.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_file.o", 
+            "../../example/main_file.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_file.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "SpriteData.o", 
+            "../../lib/SpriteData.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/SpriteData.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestMapData.o", 
+            "../../test/TestMapData.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestMapData.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Main.o", 
+            "../../lib/Main.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Main.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../example", 
+            "-I../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "main_frame.o", 
+            "../../example/main_frame.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/example", 
+        "file": "../../example/main_frame.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../../demo/opengl", 
+            "-I../../lib/Syndicate/Data", 
+            "-I/usr/include/SDL", 
+            "-D_GNU_SOURCE=1", 
+            "-D_REENTRANT", 
+            "-I../../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Data.o", 
+            "../../../demo/opengl/Data.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/demo/opengl", 
+        "file": "../../../demo/opengl/Data.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "MapData.o", 
+            "../../lib/MapData.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/MapData.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../test", 
+            "-I../lib/Syndicate/Data", 
+            "-I../../lib/", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "TestPalette.o", 
+            "../../test/TestPalette.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/test", 
+        "file": "../../test/TestPalette.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../tool", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Memshot.o", 
+            "../../tool/Memshot.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/tool", 
+        "file": "../../tool/Memshot.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-fPIC", 
+            "-DPIC", 
+            "-o", 
+            ".libs/Debug.o", 
+            "../../lib/Debug.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Debug.cc"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DHAVE_CONFIG_H", 
+            "-I.", 
+            "-I../../lib", 
+            "-I../lib/Syndicate/Data", 
+            "-g", 
+            "-O0", 
+            "-o", 
+            "Debug.o", 
+            "../../lib/Debug.cc"
+        ], 
+        "directory": "/home/cerial/Development/syndicate/fresh/libsyndicate/build/lib", 
+        "file": "../../lib/Debug.cc"
+    }
+]
