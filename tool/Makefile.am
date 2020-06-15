@@ -10,4 +10,4 @@ MemshotFe_SOURCES = MemshotFe.cc Memshot.cc Memshot.h Screenshot.cc Screenshot.h
 
 ##AM_CXXFLAGS = -I/usr/X11R6/include/ 
 ##-L/usr/X11R6/lib/ 
-LDADD = -lX11 -lXmu -lXpm
+LDADD = -lX11 -lXmu -lXpm -lXext

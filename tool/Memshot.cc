@@ -7,6 +7,7 @@
 #include <signal.h>
 #include <sys/mman.h>
 #include <errno.h>
+#include <sys/stat.h>
 
 #include "Memshot.h"
 
