@@ -36,8 +36,3 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/build
         SYNDICATE_DATA_PATH=$GITHUB_WORKSPACE/test/fixtures make check
-
-    - name: Run make distcheck
-      run: |
-        cd $GITHUB_WORKSPACE/build
-        SYNDICATE_DATA_PATH=$GITHUB_WORKSPACE/test/fixtures make distcheck
