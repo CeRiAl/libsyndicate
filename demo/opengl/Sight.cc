@@ -365,8 +365,8 @@ bool Sight::initFrames(void)
 
       uint32_t frame_texture[texture_width * texture_height];
       memset(frame_texture, 0, texture_width * texture_height * sizeof(*frame_texture));
-      uint32_t *pixels = frame_texture - frame_y_offset * texture_width - frame_x_offset;
-      _data->getFrame(frame_index, pixels, texture_width * sizeof(*frame_texture), _colors);
+      uint32_t *pixels = frame_texture - frame_y_offset * (int32_t)texture_width - frame_x_offset;
+      _data->getFrame(frame_index, pixels, (int32_t)texture_width * sizeof(*frame_texture), _colors);
       
       // manage texture
       glBindTexture(GL_TEXTURE_2D, _frame_texture_names[frame_index]);

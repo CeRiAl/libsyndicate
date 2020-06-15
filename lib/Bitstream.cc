@@ -78,7 +78,7 @@ unsigned Bitstream::pop(unsigned nb)
   Assert( ((nb <= 16) && (nb <= _count)) );
 
   unsigned result = 0;
-  if(nb <= 16 && nb <= _count)
+  if(nb > 0 && nb <= 16 && nb <= _count)
      {
       // we save the result
       result = _buffer &  _masks[nb - 1]; 
@@ -94,7 +94,7 @@ void Bitstream::push(unsigned nb, unsigned buffer)
 {
   Assert( ((nb <= 16) && (nb + _count <= 32)) );
 
-  if((nb <= 16) && (nb + _count <= 32))
+  if((nb > 0) && (nb <= 16) && (nb + _count <= 32))
     {
       // we decount the bit we add 
       _count += nb;
